@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900&family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/sections.css">
+<link rel="stylesheet" href="./css/footer.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<title>Shane Pooler | Developer</title>
+</head>
+
+<body>
+    
+    
+    <header class="center">
+
+        <!--left side-->
+        <div class="logo center">
+            <a href="">
+                <h2>Shane Pooler</h2>
+            </a>
+        </div>
+
+        
+        <!--right side-->
+        <nav>
+            
+            <!---Hamburger icon-->
+            <input type="checkbox" id="nav-check">
+            <div class="nav-btn"> 
+                <label for="nav-check">
+                    <span></span> 
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-link center">
+                <a href="#section-1">About me</a>
+                <a href="#section-2">Projects</a>
+                <a href="#section-3">Experience</a>
+                <a href="#section-4">Contact</a>
+            </div>
+        </nav>
+    
+    </header>
+
+    
+    <div id="section-1" class="break"></div>
+    <section class="about-section">
+      
+        <div class="img-container center">
+            <img id="about-img" src="./img/logo.png ">   
+        </div>
+
+        <div class="description-container center">
+            
+            <div class="center" style="flex-direction: column;">
+                <h1>My role as dev</h1>
+            <h2>Shane Pooler</h2>
+            </div>
+
+            <p>
+                Hi, my name is Shane Pooler I'm a designer and full-stack developer. I have passion for UI & UX design
+                . <br><br>
+               
+            </p>
+
+            <div class="skills-list center">
+                <h2>Skills</h2>
+
+                <div class="skills center">
+                    <label> HTML</label>
+                    <label> CSS </label>
+                    <label> JAVA </label>
+                    <label> JAVASCRIPT </label>
+                    <label> PYTHON </label>
+                    <label> FLASK </label>
+                    <label> DJANGO </label>
+                    <label> REACT </label>
+                    <label> NODES JS </label>
+                </div>
+            </div>
+        </div>
+   
+    </section>
+
+    <div id="section-2" class="break"></div>
+    <section class="projects-section center">
+        <h2>Projects</h2>
+
+        <div id="projects-list">
+
+        </div>
+    </section>
+
+
+    <div id="section-3" class="break"></div>
+    <section class="experience-section center">
+    
+        <h2> Experience/Education</h2>
+
+        <div id="experience-list">
+
+
+        </div>  
+        
+    </section>
+
+    <div id="section-4" class="break"></div>
+    <section class="contact-section center">
+
+        <h2>Contact Me</h2>
+        <p>Feel free to drop me a line below!</p>
+
+        <form id="emailForm">
+
+            <input type="text" id="name" placeholder="Name" required> <br>
+            <input type="email" id="email" placeholder="Email" required> <br>
+            <input type="text" id="subject" placeholder="Subject"> <br>
+            <textarea id="message" rows="4" placeholder="Message" required></textarea> <br>
+            <button class="primary-button" type="submit">Send Email</button>
+
+        </form>
+
+    </section>
+    
+    <footer>
+        <a href="#section-1">
+            <h2>Shane Pooler</h2>
+        </a>
+
+        <nav class="nav-footer center">
+            <a href="#section-1">About me</a>
+            <a href="#section-2">Projects</a>
+            <a href="#section-3">Experience</a>
+            <a href="#section-4">Contact</a>
+        </nav>
+
+    </footer>
+
+    <script src="./js/email.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- This is the EmailJS library -->
+    <script src="./js/main.js"></script>
+    <script src="./js/navigation.js"></script>
+    
+</body>
+
+</html>
